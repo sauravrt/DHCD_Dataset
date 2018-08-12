@@ -1,4 +1,4 @@
-# DHCD_Dataset
+# Devnagari Handwritten Characters Dataset
 This repository contains the DHCD dataset, a dataset of Devnagari (Nepali) handwritten characters.
 
 ## Description
