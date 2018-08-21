@@ -1,11 +1,15 @@
-# DHCD_Dataset
-This repository contains the DHCD dataset, a dataset of Devnagari (Nepali) handwritten characters.
+# Devnagari Handwritten Character (DHC) Dataset
+This repository contains the DHC
 
 ## Description
-
+The Devenagari script comprises of 36 characters and 10 numerals.  
+A sample set of the 36 character-set.
 ![](images/DHCD_characters.png)
 
-DHCD dataset contains 46 classes [36 character class and 10 digit class] (क .. +  १ .. ) of Devnagari script. Each class
+A sample set of the 10 numeral-set
+![](images/DHCD_numeralset.png)
+
+The DHC dataset contains 46 classes [36 character class and 10 digit class] (क .. +  १ .. ) of Devnagari script. Each class
 has 2000 images which is divided into two sets: training and test containing 1700 and 300 images respectively. So technically, this dataset is larger both in terms of samples and classes than the famous MNIST dataset which was the initial inspiration for the creation of this dataset. 
 
 This repo contains the dataloader for PyTorch and it can be easily transported to other libraries like TensorFlow, Keras, Caffe etc. 
